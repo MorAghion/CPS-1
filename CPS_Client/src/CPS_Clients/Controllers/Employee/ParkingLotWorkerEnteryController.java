@@ -51,6 +51,7 @@ public class ParkingLotWorkerEnteryController extends EmployeeBaseController {
 		    	else 
 		    	{
 		        	DialogBuilder.AlertDialog(AlertType.ERROR, "", ConstsEmployees.ParkingLotWasAlreadyinitialized, null,false);
+		        	
 				}
 	    	}
 	    	else 
